@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
     $("#development-image").click(function(){
       $("#development-image").slideDown('1500').hide('1000');
@@ -83,8 +82,7 @@ $(document).ready(function(){
   $(document).ready(function(){
     $("form#form34A").submit(function(event){
       event.preventDefault();
-      // event.preventDefault();
-      var name = $("input#MERGE1").val();
+            var name = $("input#MERGE1").val();
       var email = $("input#MERGE0").val();
       var message = $("textarea#comment").val();
       if ($("input#MERGE1").val() && $("input#MERGE0").val()){
